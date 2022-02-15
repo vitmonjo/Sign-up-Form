@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ubuntu+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(228, 228, 228);
+}
+
+a:visited {
+    color: white;
+}
+
+#reference {
+    color: white;
+    padding-left: 8vw;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#black-background {
+    background-color: black;
+    opacity: 50%;
+    height: 150px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#background-image {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    top: 155px;
+    left: 145px;
+    height: 140px;
+}
+
+#odin {
+    position: absolute;
+    top: 170px;
+    left: 265px;
+    height: 140px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+#lorem-text {
+    font-size: 1.5rem;
+    width: 900px;
+    padding: 50px 200px 40px 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#form-space {
+    background-color: white;
+    width: 1040px;
+    height: 280px;
+    box-shadow: 0 8px 6px -8px rgb(109, 108, 108);
+}
+
+#headline {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+}
+
+label {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    padding-left: 60px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 1.0rem;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 169, 169);
+}
+
+#password-message {
+    font-size: 0.8rem;
+    color: red;
+    padding-left: 60px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#last-name:focus {
+    border: 1px solid rgb(33, 109, 223);
+    outline: none;
+    box-shadow: 8px 8px 6px -8px rgb(109, 108, 108);
+}
+
+#password, #password-confirm {
+    border: 1.5px solid red;
+}
+
+button {
+    background-color: #596D48;
+    height: 50px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin: 30px 0 0 60px;
+}
+
+#login {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.2rem;
+    padding: 30px 0 0 60px;
+}
+
+a[href="https://google.com"] {
+    color: #596D48;
+}
